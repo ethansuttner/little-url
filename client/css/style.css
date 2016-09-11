@@ -1,0 +1,32 @@
+body {
+	background-color: #ecf0f1;
+}
+
+h1, h2, h3 {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 300;
+}
+
+h1 {
+	font-size: 28px;
+}
+
+h2 {
+	font-size: 20px;
+}
+
+blockquote {
+	margin-bottom: 1px;
+	padding-bottom: 1px;
+}
+
+ul {
+    display: block;
+    list-style-type: disc;
+    max-width: 63%;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    -webkit-padding-start: 40px;
+}

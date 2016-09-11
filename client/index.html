@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic,800,800italic' rel='stylesheet' type='text/css'>
+	<meta charset="utf-8">
+	<meta name="description" content="This API processes any valid url and outputs a unique url">
+	<meta name="keywords" content="url shorten ltlurl">
+	<title>ltlurl service</title>
+	<link rel="stylesheet" type="text/css" href="css/reset.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+    <div class="container text-center">
+<h1 class="header">Shorten URLs with ltlurl!</h1>
+<blockquote>
+    Pass in a url - Receive a shortened url that will redirect to the original url
+</blockquote>
+<h2>
+    Example Input:
+</h2>
+<a href="/new/http://www.google.com"><code>https://ltlurl.herokuapp.com/new/https://www.google.com</code></a>
+<h2>
+    Example Output:
+</h2>
+<code>{"original_url":"https://www.google.com","short_url":"https://ltlurl.herokuapp.com/rJyprLfi"}</code>
+<h2>
+    Usage:
+</h2>
+<a href="/rJyprLfi"><code>https://ltlurl.herokuapp.com/rJyprLfi</code></a>
+<h2>
+    Will redirect to:
+</h2>
+<a href="https://www.google.com"><code>https://www.google.com</code></a>
+</div>
+</body>
+</html>
